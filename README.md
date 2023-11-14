@@ -51,6 +51,47 @@ These features enhance user experience and can be developed in later phases.
 - **Market Analysis**:
   - Marketing Manager: Analyze investment trends and client preferences.
 
+# Frontend
+
+## Frontend Framework
+
+### React
+We have chosen React as our primary frontend framework due to its component-based architecture and widespread adoption, which is ideal for building dynamic and data-intensive user interfaces.
+
+### Optional Framework Extensions
+Additional frameworks may be utilized as extensions to React based on specific project requirements.
+
+## Data Fetching
+
+- **RESTful API**: Suitable for straightforward data requirements. We will use RESTful APIs for their simplicity and wide compatibility.
+- **GraphQL**: Considered for more complex, nested data requirements where minimizing data over-fetching is crucial.
+
+## UI Frameworks
+
+We are considering the following UI frameworks:
+- **React-Bootstrap**: Optimal for rapid development with familiar and responsive design components.
+- **Material UI**: Offers a comprehensive set of components with material design principles.
+- **Ant Design**: Known for its enterprise-level component library and design system.
+
+## Libraries for Metrics and Timeline Data
+
+### Charting Libraries
+- **Recharts**: A composable charting library built on React components, known for its simplicity and customizability.
+- **Chart.js**: A popular library for interactive charts, easily integrated into React with `react-chartjs-2`.
+
+### Data Grid Libraries
+- **ag-Grid**: Provides a rich feature set for displaying complex data sets, including integrated charting, sorting, and filtering.
+- **Material-UI DataGrid**: An effective choice within the Material-UI ecosystem for handling large data sets.
+
+### Timeline Libraries
+- **React Calendar Timeline**: Specialized for creating timelines in React, offering customizability and drag-and-drop support.
+- **vis.js**: A dynamic visualization library with a capable Timeline component for horizontal timeline displays.
+
+## Decision Summary
+- We will use **React-Bootstrap** for the UI framework as uniqueness in UI design is not a primary concern.
+- **RESTful APIs** will be our default choice for data fetching, given the current project scope doesn't demand complex data fetching.
+- Integration of charting, data grid, and timeline libraries will be further discussed and decided as we progress in implementing specific pages.
+
 Frontend(client): 1.Framework(React(single page), Next.js(complicate), ...); 2.UI design pattern; 3.Restful(90%)/GraphQL/MVC(fast, hard)
 
 React    -netwrok json http ip tcp socket- (Restful Api, AJAX, GraphQL)  Spring/Django/Node.js
