@@ -51,6 +51,19 @@ These features enhance user experience and can be developed in later phases.
 - **Market Analysis**:
   - Marketing Manager: Analyze investment trends and client preferences.
 
+Frontend(client): 1.Framework(React(single page), Next.js(complicate), ...); 2.UI design pattern; 3.Restful(90%)/GraphQL/MVC(fast, hard)
+
+React    -netwrok json http ip tcp socket- (Restful Api, AJAX, GraphQL)  Spring/Django/Node.js
+html,js,views,dao Django
+
+browser -> React(AWS) -> Spring1(Azure) -> Spring2 -> Spring3 -> Spring4 -> SQL(oracle)
+browser -> Django(Azure) -> SQL(oracle)
+
+Stock: buy price, volumn, date,
+Backend(server): Spring, Django, Node.js, pandas/numpy/pytorch, Finance data API(free)
+
+Database: SQL/Non-SQL, PostgreSQL, MySQL, deploy platform
+
 ## Contributing
 We welcome contributions from the community. Please read our contributing guidelines before submitting your pull requests.
 
