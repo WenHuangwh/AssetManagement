@@ -8,25 +8,19 @@ AssetManagement is a web application designed for investment companies to manage
 ### P0 - Essential Features
 These features are crucial for the basic functionality of the app.
 
-- **Manage Portfolios**:
-  - Investment Company: Manage individual and combined portfolios for each manager and department.
-- **Asset Classes**:
-  - Investment Company: Incorporate various asset classes like cash, bonds, and stocks.
-- **Asset Categorization**:
-  - Account Manager: Categorize assets (HTM, AFS, trading).
-- **Cash Management**:
-  - Investment Company: Inject new cash into company account and allocate to investment managers.
-- **Transaction Requests**:
-  - Investment Manager: Submit transaction requests to traders.
-  - Trader: Initiate and execute trade requests.
-- **Logging and Recording**:
-  - Investment Company: Log all managers’ requests and traders’ transactions.
-- **Real-time Balances**:
-  - Investment Company: View real-time balances of managers, teams, and the company.
-- **Security and Backup**:
-  - IT Administrator: Implement robust security and data backup features.
-- **Profit and Loss Statements**:
-  - Account Manager: Access to real-time profit and loss statements.
+As an investment manager, I want to create a account for asset management.
+As an investment manager, I want to register all my current assets into the system. Each asset should have a purchase date, purchase price, volume, end date(duration)(optional), balance sheet class(optional, like hold to maturity, available for sale).
+As an investment manager, I want to add money to my account. (We should store asset price each time new cash flow in/out to the account for return calculation)
+As an investment manager, I want to find/register any asset. For public listed asset like stock, bond, mutual fund, the system should find information for me; for alternative asset like real estate, bank checking/saving account, I can register information for this asset.
+As an investment manager, I want to register my transaction of assets in my account. (stock -> stock, cash -> stock, stock -> bond)
+As an investment manager, I want to view my balance sheet of given time.
+As an investment manager, I want to get my asset return of any given time period.
+As a portfolio manager, I want to compare investment manager's performance with bench mark.
+As a portfolio manager, I want to know asset weight broken down by asset class, industry, country.
+As a risk manager, I want to know risk factor like alpha, beta, standard deviation of portfolio.
+As a risk manager, I want to do monte-carlo simulation on current portfolio.
+As a head of investment, I want to see all transaction of given period.
+As a head of investment, I want to see company's asset in one portfolio.
 
 ### P1 - High Value Features
 These features add significant value and should be included in the early development stages.
